@@ -1,0 +1,112 @@
+   /*** PUBLIC Styles ***/
+   hr {
+   border: none; 
+   background-color: darkgray; 
+   color: whitesmoke; 
+   height: 1px; 
+   }
+
+   p {
+   margin: 0;
+   text-indent: 3ch;
+   font-size: 14pt;
+   }
+
+   p1 {
+   font-size: 14pt;  
+   }
+   /*********************/
+
+   /*-- Styles(MainMenu) --*/
+   .OrangeText{
+   background: #f5a940;
+   }
+   /*---------------------*/
+
+   /*-- Styles(Catalog) --*/
+    .buttonToCreator{
+    width: 140px;
+    height: 40px;
+    margin-left: 445px;
+    cursor: pointer;
+    } 
+
+    .Products-look p1{
+    margin-right: 95px;
+    }
+
+    .Products-look img{
+    border: 1px solid #ccc;
+    border-color: black;
+    width: 350px;
+    height: 225px;
+    }
+   /*--------------------*/
+   
+   /*-- Styles(Sizes-table) --*/
+    .RedTable td, th {
+    background-color: rgb(216, 168, 216);;
+    font-family: "Arial", Arial, sans-serif;
+    padding: 5px; /* Поля вокруг текста */
+    }
+
+    .RedTable {
+    background: Pink; /* Цвет фона таблицы */
+    border-bottom-color: LightSteelBlue;     
+    padding: 2px; /* Поля вокруг текста */
+    }
+
+    .BlueTable td, th {
+    background-color: rgb(139, 178, 250);;
+    font-family: "Arial", Arial, sans-serif;
+    padding: 5px; /* Поля вокруг текста */
+    }
+
+    .BlueTable {
+    background: rgba(5, 90, 248, 0.87); /* Цвет фона таблицы */
+    border-bottom-color: LightSteelBlue; 
+    font-family: "Arial", Arial, sans-serif;
+    }
+   /*------------------------*/
+
+   /*-- Styles(New-footwear) --*/
+    textarea{
+    width: 50%;
+    height: 200px;
+    resize: none;
+    }
+
+    .Creator_Text p1{
+    text-indent: 0ch;
+    display: block;
+    font-family: FreeMono, monospace;
+    }
+
+    .Creator_Buttons button{
+    width: 150pt;
+    height: 40pt;
+    }
+
+    .Creator_Buttons > button{    /* !!Зміна кольору кнопок першого рівню за допомогою "Дочірнього селектора"!! */
+    background-color: antiquewhite; 
+    }
+
+    .Creator_Buttons * button{    /* !!Зміна кольору всіх кнопок за допомогою "Універсального селектора" (Добавлено в процессі вивчення теми)!! */
+    background-color:cornflowerblue;
+    }                           
+
+    .Shoe_Add{
+    position: absolute; 
+    background-color: aquamarine;
+    top:925px;  
+    left:320px;   
+    } 
+
+    .Exit {
+    position: absolute;
+    background-color: darksalmon;     
+    top:925px;  
+    left:560px;
+    }
+   /*-------------------------*/
+
